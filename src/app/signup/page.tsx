@@ -42,7 +42,7 @@ export default function page() {
         </button>
       </div>
       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-  <form className="space-y-6" action="#" method="POST">
+  <form className="space-y-6" onSubmit={handleSignUp}>
     <div>
       <label htmlFor="name" className="block text-sm/6 font-medium text-gray-900">Name</label>
       <div className="mt-2">
